@@ -30,6 +30,8 @@
 
 \pagenumbering{gobble}
 
+\bibliographystyle{unsrt}
+
 \sectionfont{\fontsize{12}{14}\selectfont\bfseries\Large\raggedright}
 
 \def\headertitle#1{\def\@headertitle{#1}}
