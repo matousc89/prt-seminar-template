@@ -1,0 +1,98 @@
+%%%% CHOOSE cz OR en
+\documentclass[en]{prtclass}
+
+%%%% TOGGLE AND SET NUMBERING, IF REQUIRED
+% \pagenumbering{arabic}
+% \setcounter{page}{10}
+
+\author{Captain Picard $^1$, Seven of Nine $^2$}
+\headerauthor{Captain Picard, Seven of Nine}
+\address{%
+$^1$ Address 1, No street, Somehwhere in the galaxy, abc@xyz.abc\\%
+$^2$ Place 2, No street, Totally Elsewhere , abc121@xyz.abc%
+}
+\title{THE FULL, REALLY LONG AND BORING TITLE}
+\headertitle{SHORT TITLE}
+
+\abstractEN{
+\blindtext[1]
+}
+\abstractCZ{
+\blindtext[1]
+}
+
+\keywordsCZ{
+keyword1, keyword2, keyword3
+}
+
+\keywordsEN{
+keyword1, keyword2, keyword3
+}
+
+\begin{document}
+\maketitle
+
+\section{Introduction}
+\blindtext[2]
+\begin{equation}
+c^{2} = a^{2} + b^{2} 
+\end{equation}
+\blindtext[2]
+
+
+\section{Methods}
+\blindtext[1]
+\subsection{Example subsection}
+\blindtext[1]
+\begin{figure}
+    \centering
+    \includegraphics[width = 0.8\linewidth]{figures/sample_figure.jpg}
+    \caption{Sample figure.}
+    \label{fig:results}
+\end{figure}
+
+\blindtext[1]
+
+\begin{table}[ht]
+    \centering
+    \caption{Sample table}
+    \label{tab:elapsed time}
+    \begin{tabular}{|c||c|c|c|c|}
+        \hline
+        Round & Alice &  Bob & Chris & David \\ 
+        \hline 
+        3 & 0.040565 & 12.106009 & 17.114869 & 27.900899 \\
+        \hline
+        13 & 0.057102 & 12.484739 & 91.514165 & 45.028556 \\
+        \hline
+        23 & 0.067401 & 12.566594 & 132.167673 & 51.513525 \\
+        \hline
+        33 & 0.078859 & 12.785707 & 170.275357 & 60.336528 \\
+        \hline
+        43 & 0.091092 & 13.055424 & 211.303988 & 71.177681 \\
+        \hline
+        53 & 0.102716 & 13.517995 & 251.945065 & 82.149545 \\
+        \hline
+        63 & 0.112905 & 13.724406 & 291.961026 & 95.538772 \\
+        \hline
+        73 & 0.128387 & 14.128523 & 330.522018 & 108.705011 \\
+        \hline
+        83 & 0.140568 & 14.402364 & 370.774985 & 128.212707 \\
+        \hline
+        93 & 0.152008 & 14.572935 & 409.528680 & 146.476234 \\
+        \hline
+    \end{tabular}
+\end{table}
+
+
+\section{Závěr}
+\blindtext[2]
+
+
+\section*{Acknowledgement}
+The project was supported by grant...
+
+\bibliographystyle{unsrt}
+\bibliography{refs}
+
+\end{document}
