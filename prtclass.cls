@@ -96,7 +96,7 @@
 \renewcommand{\maketitle}{%
         ~\vspace{25.4mm}~
         \begin{center}
-            \fontsize{16}{17}\selectfont \textbf{\@title}
+            \fontsize{16}{17}\selectfont \textbf{\MakeUppercase{\@title}}
             \vspace{10mm}   
             \\
             \fontsize{12}{14}\selectfont \textbf{\textit{\@author}} 
